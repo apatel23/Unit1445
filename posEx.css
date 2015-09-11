@@ -1,0 +1,51 @@
+#sidebar {
+    position: fixed;
+    background-color: blue;
+    width: 100px;
+    max-width: 600px;
+    color: white;
+}
+
+h1 {
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+
+body.p {
+    visibility: hidden;
+}
+
+.important {
+    position: absolute;
+    overflow: scroll;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    right: 50px;
+}
+
+.not-important {
+    position: absolute;
+    overflow: hidden;
+    background-color: #00FF00;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    right: 550;
+}
+
+.more-important {
+    position: relative;
+    overflow: visible;
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    top: 170px;
+    left: 60px;
+    z-index: -1;
+}
+
+
+

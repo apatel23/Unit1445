@@ -1,0 +1,46 @@
+.big-letter {
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%;
+}
+
+.outer {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 3px dashed black;
+    background-color: #C2F0FF;
+}
+
+.inner1, .inner2, .inner3 {
+    width: 100px;
+    height: 100px;
+    border: 3px dashed black;
+    background-color: white;
+}
+
+.inner1 {
+    float: right;
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+.inner2 {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.inner3 {
+    float: right;
+    margin-top: 40px;
+    margin-right: 0px;
+}
+
+p {
+    clear: left;
+    padding: 10px;
+}

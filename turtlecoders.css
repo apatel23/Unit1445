@@ -1,0 +1,84 @@
+body {
+    background-color: #f4ffe4;
+    color: #333333;
+    font-family: Sans-serif, serif;
+}
+
+h {
+    font-family: serif;
+}
+
+.company_name {
+    font-weight: bold;
+}
+
+#intro {
+    text-indent: 50px;
+}
+
+#services {
+    line-height: 150%;
+}
+
+header {
+    background-color: #d5edb3;
+    background-image: url("turtle2.gif");
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: center;
+    text-shadow: 2px 3px 5px #666;
+    border-radius: 15px;
+    border: 1px solid black;
+    border-color: #333333;
+    box-shadow: 5px 5px 5px #828282;
+}
+
+nav {
+   
+    text-decoration: none;
+    font-weight: bold;
+    text-indent:  20px;
+    word-spacing: 5px;
+    margin-left: 20px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #333333;
+}
+
+nav a {
+    float: center;
+	font-weight: bold;
+	background-color: #d5edb3;
+    border-color: #333333;
+    border: 1px solid #333333;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.motto {
+    font-style: italic;
+    text-align: center;
+    border-style: ridge;
+    border-color: #98bf21;
+    border-left-width: 30px;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    min-width: 600px;
+    min-height: 550px;
+    text-ident: 10px;
+}
+
+#content {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: square;
+}
